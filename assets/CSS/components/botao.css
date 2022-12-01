@@ -14,3 +14,10 @@
 
     border: none;
 }
+
+.botao--alternativo{
+    color: var(--amarelo);
+    background-color: unset;
+    box-shadow: none;
+    border: solid 1px var(--amarelo);
+}
