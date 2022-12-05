@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="./assets/CSS/components/cabecalho.css">
     <link rel="stylesheet" href="./assets/CSS/components/input.css">
     <link rel="stylesheet" href="./assets/CSS/components/botao.css">
+    <link rel="stylesheet" href="./assets/CSS/chamada.css">
+    <link rel="stylesheet" href="./assets/CSS/components/cartao.css">
+    <link rel="stylesheet" href="./assets/CSS/components/item.css">
+    <link rel="stylesheet" href="./assets/CSS/como-conseguir.css">
     <link rel="stylesheet" href="./assets/CSS/components/rodape.css">
     <title>Home | Casa Verde</title>
 </head>
@@ -21,17 +25,39 @@
     </header>
 
     <main>
-        <section class="container">
+        <section class="chamada container">
             <h2 class="titulo">
                 Sua casa com as
                 <span class="titulo--destaque">melhores plantas</span>
             </h2>
-            <p class="texto">Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca</p>
-            <img src="./assets/IMG/produto-02 1.png" alt="Foto do produto">
-            <form action="#">
+            <p class="chamada__texto texto">Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca</p>
+            <img src="./assets/IMG/planta-home.png" alt="Foto do produto" class="chamada__image">
+            <form action="#" class="chamada__formulario">
                 <input type="text" class="input input--icone input--email" placeholder="Insira seu e-mail" aria-label="Insira seu e-mail">
                 <button class="botao">Assinar newsletter</button>
             </form>
+        </section>
+
+        <section class="como-conseguir container">
+            <article class="cartao">
+                <h2 class="titulo alinhamento-meio">Como conseguir
+                    <span class="titulo-destaque">minha planta</span>
+                </h2>
+                <ul class="lista-item">
+                    <li class="item">
+                        <span class="item__icone item__icone--cursor"></span>
+                        <p>Escolha suas plantas</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icone item__icone--carrinho"></span>
+                        <p>Faça seu pedido</p>
+                    </li>
+                    <li class="item">
+                        <span class="item__icone item__icone--caminhao"></span>
+                        <p>Aguarde na sua casa</p>
+                    </li>
+                </ul>
+            </article>
         </section>
     </main>
 
